@@ -1,0 +1,26 @@
+//def_val variable
++0 000 001 000
++0 000 000 000
+//variable a
++0 001 001 000
++0 000 000 000
+//variable b
++0 002 001 000
++0 000 000 000
+//variable holding int literal 3
++0 003 001 000
++0 000 000 003
+//Separator
++9 999 999 999
+//Multiplying b by 3 and storing the result in def_val
++2 002 003 000
+//Assigning the result from def_val to a
++0 000 000 001
+//Assigning b to a
++0 002 000 001
+//Assigning 3 to a
++0 003 000 001
+//Stopping execution
++9 000 000 000
+//Separator
++9 999 999 999

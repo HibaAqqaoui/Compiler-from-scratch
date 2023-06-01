@@ -1,0 +1,101 @@
++0: Assign (for example a=b -> to assign positions etc. ))
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3) assigns the value of variable (000) to the variable (111)
+	4) outputs the value of variable (000)
+	5) outputs the value of variable (111)
+
++1: Addition (c=a+b -> calculation used to orient flower picker))
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3) adds the value of variable (000) to variable (111) and stores the result in variable (222)
+	4) outputs the value of variable (222) holding the result
+
+-1: Subtraction (c=a-b -> calculation used to orient flower picker))
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3) subtracts the value of variable (111) from variable (000) and stores the result in variable (222)
+	4) outputs the value of variable (222) holding the result
+
++2: Multiplication (c=a*b -> calculation used to orient flower picker))
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3) multiplies the value of variable (000) by the value of variable (111) and stores the result in variable (222)
+	4) outputs the value of variable (222) holding the result
+
+-2: Division (c=a/b -> calculation used to orient flower picker)
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3) divides the value of variable (000) by the value of variable (111) and stores the result in variable (222)
+	4) outputs the value of variable (222) holding the result
+
++4: EQL Test ( if a is equal to see whether we can pick a flower for example)
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3)a/ if the value of variable (000) equals the value of variable (111)
+		it jumps to the instruction that outputs the value of variable (000).
+	  b/ if the value of variable (000) does not equal the value of variable (111)
+		it does not jump and the output only has the value of variables (000) and (111).
+
+-4: NEQ Test ( equivalent to != to see when we cannot pick a flower)
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3)a/ if the value of variable (000) does not equal the value of variable (111)
+		it jumps to the instruction that outputs the value of variable (000).
+	  b/ if the value of variable (000) equals the value of variable (111)
+		it does not jump and the output only has the value of variables (000) and (111).
+
++5: GEQ Test ( equivalent to greater than or equal : may be used to see where the picker is at in the flower world)
+	1) outputs the value of variable (000)
+	2) outputs the value of variable (111)
+	3)a/ if the value of variable (000) is more than or equal to the value of variable (111)
+		it jumps to the instruction that outputs the value of variable (000).
+	  b/ if the value of variable (000) is less than the value of variable (111)
+		it does not jump and the output only has the value of variables (000) and (111).
+
+-5: LT Test (less than: may be used to see where the picker is at in the flower world)
+	1) outputs the value of the variable (000)
+	2) outputs the value of the variable (111)
+	3)a/ if the value of the variable (000) is less than the value of the seond variable (111)
+		it jumps to the instruction that outputs the value of the variable (000).
+	  b/ if the value of the variable (000) is more than or equal to the value of the variable (111)
+		it does not jump and the output only has the values of variables (000) and (111).
+
++6: Read from Array
+	1) outputs the value of variable (000)
+	2) writes the content of the array that starts at (222) at index = value of variable (111), in the variable (000)
+	3) outputs the value of variable (000)
+
+-6: Write to Array
+	1) outputs the value of the array (222) at index = value of variable (111)
+	2) writes the value of the variable (000) in the array that starts at (222) at index = value of variable (111).
+	3) outputs the value of the array (222) at index = value of variable (111)
+
++7: Loop (may be used to orient the picker to go some other way if it hits a wall)
+	1) outputs the value of variable (000)
+	2) while the value of variable (111) is less than the value of variable (222)
+		jump to instruction (000) which outputs the value of variable (000)
+
+-7: Label
+	1) outputs the value of variable (111)
+	2) assigns the label (335) to the instruction that outputs the value of (444)
+	3) outputs the value of the variable (444)
+	4) assigns the label (404) to the instruction that outputs the value of (333)
+	5) outputs the value of the variable (333)
+	6) a/ if the value of the variable (111) is more than or equal to the value of the seond variable (000)
+		it jumps to the instruction that has (335) as a label.
+	   b/ if the value of the variable (111) is less than the value of the variable (000)
+		it does not jump and the output only has the values of the variables (111) and (444) and (333).
+	7)a/ if the value of the variable (111) is more than or equal to the value of the seond variable (000)
+		it jumps to the instruction that has (404) as a label.
+	   b/ if the value of the variable (111) is less than the value of the variable (000)
+		it does not jump and the output only has the values of the variables (111) and (444) and (333) [and (444) again if it passed the previous test].
+
++8: read from input (self explanatory)
+	1) outputs the value of the variable (111)
+	2) reads input and stores it in the variable (111)
+	3) outputs the value of the variable (111)
+
+
+-8: write to output (self explanatory)
+	1) outputs the value of the variable (111)

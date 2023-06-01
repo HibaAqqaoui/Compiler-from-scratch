@@ -1,0 +1,33 @@
+int a;
+int b;
+bool f;
+int main(void){
+    int c;
+    int d;
+    SET c = "Languages and Compilers";
+    if(d<2)[
+      SET c = modify(d);
+    ]
+    else[
+      delete(d);
+    ]
+    SET c= 0;
+    WHILE(c<10)
+    BEGIN
+       SET d=c;
+    END; 
+    back 0;      
+}
+int modify(int r) {
+    SET r= b+2;
+    back r;
+}
+int delete(int d){
+    int r;
+    back d;
+}
+   
+   
+   
+
+    

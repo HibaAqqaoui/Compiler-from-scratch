@@ -1,0 +1,16 @@
+//def_val variable
++0 000 001 000
++0 000 000 000
+//Variable a
++0 001 001 000
++0 000 000 000
+//Separator
++9 999 999 999
+//Reading from input into a
++8 000 000 001
+//Writing from a into output
+-8 000 000 001
+//Stopping execution
++9 000 000 000
+//Separator
++9 999 999 999

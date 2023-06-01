@@ -1,0 +1,7 @@
+int main(void){
+    int a;
+    int b;
+    SET a = b*3;
+    SET a = b;
+    SET a = 3; 
+}

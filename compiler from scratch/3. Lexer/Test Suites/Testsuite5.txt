@@ -1,0 +1,18 @@
+int main(void){ 
+   int i,b,c;
+   SET i = 0;
+   if (b>c)[
+      GOUP();
+      GODOWN();
+   ]
+   else[
+      GOLEFT();
+      GORIGHT();
+   ]
+   WHILE i<4
+   BEGIN
+      PICKFLOWER();
+      SET i = i + 1
+   END
+   back 0;
+}

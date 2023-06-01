@@ -1,0 +1,13 @@
+//def_val variable
++0 000 001 000
++0 000 000 000
+// variable a
++0 001 001 000
++0 000 000 000
+//Separator
++9 999 999 999
+//Stopping is automatically added when reaching the end of the main function
+//The generator code stops before generation if there is an error
++9 000 000 000
+//Separator
++9 999 999 999

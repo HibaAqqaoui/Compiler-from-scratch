@@ -1,0 +1,13 @@
+int x;
+int y;
+int main(void){
+    int a;
+    SET a = 2;
+    setVar();
+    SET y = 3;
+}
+
+void setVar(void){
+    SET x = 1;
+    print(x);
+}

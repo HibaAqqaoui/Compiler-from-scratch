@@ -1,0 +1,28 @@
+int a;
+int b;
+bool f;
+int main(void){
+    int c;
+    int d;
+    SET d =c+1;
+    if(d<2)[
+      SET c = modify(d,f,e,g);
+    ]
+    else[
+      delete(d);
+    ]
+    SET c= 0;
+    WHILE(c<10)
+    BEGIN
+       SET d=c;
+    END; 
+    back 0;      
+}
+int modify(int r) {
+    SET r= b+2;
+    back r;
+}
+void delete(bool d){
+    int r;
+}
+   

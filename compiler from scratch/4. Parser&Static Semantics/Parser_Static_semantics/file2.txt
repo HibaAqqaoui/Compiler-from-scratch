@@ -1,0 +1,22 @@
+Code Line		Lexemes:						Tokens:
+1              int                              INT_RES 
+1              main                            MAIN_RES 
+1              (                                L_PAREN 
+1              void                            VOID_RES 
+1              )                                R_PAREN 
+1              {                                  LCBRK 
+2              int                              INT_RES 
+2              a                                     ID 
+2              ;                                S_COLON 
+3              int                              INT_RES 
+3              c                                     ID 
+3              ;                                S_COLON 
+4              int                              INT_RES 
+4              v                                     ID 
+4              ;                                S_COLON 
+5              SET                              SET_RES 
+5              a                                     ID 
+5              =                              ASSIGN_OP 
+5              v                                     ID 
+5              ;                                S_COLON 
+6              }                                  RCBRK 

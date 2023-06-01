@@ -1,0 +1,6 @@
+int main(void){
+    int a;
+    int c;
+    int v;
+    SET a=v;
+}

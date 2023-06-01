@@ -1,0 +1,35 @@
+//def_val variable
++0 000 001 000
++0 000 000 000
+//variable a
++0 001 001 000
++0 000 000 000
+//variable b
++0 002 001 000
++0 000 000 000
+//variable holding the int literal 3
++0 003 001 000
++0 000 000 003
+//variable holding the int literal 2
++0 004 001 000
++0 000 000 002
+//Separator
++9 999 999 999
+//Storing the result of b*3 in def_val
++2 002 003 000
+//Assigning the result from def_val to b
++0 000 000 001
+//Checking if the negation of the condition (b<=a) is satisfied
+//and if so jumping to code line 004
++5 001 002 004
+//Assigning 2 to b
++0 004 000 002
+//In this case, the program would branch into this part if
+//the condition is not satisfied
+
+//Assigning a to b
++0 001 000 002
+//Stopping execution
++9 000 000 000
+Separator
++9 999 999 999

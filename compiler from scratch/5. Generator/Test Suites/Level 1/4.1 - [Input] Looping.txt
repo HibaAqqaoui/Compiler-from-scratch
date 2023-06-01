@@ -1,0 +1,8 @@
+int main(void){
+    int a;
+    int b;
+    WHILE (a<b)
+    BEGIN
+    SET a = a + 1;
+    END;
+}

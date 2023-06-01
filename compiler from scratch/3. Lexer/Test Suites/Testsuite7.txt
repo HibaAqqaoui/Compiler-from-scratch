@@ -1,0 +1,6 @@
+int main(void){
+  int  a ;
+  ctchar b ;
+   SET a = 214;
+   SET b = "str"
+}

@@ -1,0 +1,40 @@
+//def_val variable
++0 000 001 000
++0 000 000 000
+//variable x
++0 001 001 000
++0 000 000 000
+//variable y
++0 002 001 000
++0 000 000 000
+//variable a
++0 003 001 000
++0 000 000 000
+//variable to hold the int literal 2
++0 004 001 000
++0 000 000 002
+//variable to hold the int literal 1
++0 005 001 000
++0 000 000 001
+//variable to hold the int literal 3
++0 006 001 000
++0 000 000 003
+//Separator
++9 999 999 999
+//assigning 2 to a
++0 004 000 003
+   since a function call 'setVar()' is done after setting a to 2,
+   we jump to the function and execute the statements inside it
+   before coming back to the normal flow of execution and finishing
+   with the last statement in main
+//assigning 1 to x
++0 005 000 001
+/writing x to output
+-8 000 000 001
+    going back to complete normal flow of execution
+//assigning 3 to y
++0 006 000 002
+//stopping execution
++9 000 000 000
+//Separator
++9 999 999 999
